@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+/* A cor de algum link*/
+a{
+ color: blue; 
+}
+
+/* a cor do texto do site visitado*/
+a:visited{
+    color: red;
+}
+/* ao passsar o mouse fica uma listra preta*/
+a:hover{
+    background-color: black;
+    color: white;
+}
+/*clicar e segurar vai ficar da cor abaixo*/
+a:active{
+    background-color: green;
+}
